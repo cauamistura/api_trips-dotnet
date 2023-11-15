@@ -7,7 +7,7 @@ namespace Uniciv.Api.Repositories
         void Adicionar(FundoCapital fundoCapital);
         void Alterar(FundoCapital fundoCapital);
         IEnumerable<FundoCapital> ListarFundos();
-        FundoCapital ObterPorId(Guid id);
+        FundoCapital? ObterPorId(Guid id);
         void RemoverFundo(FundoCapital fundoCapital);
     }
 }   
